@@ -1,5 +1,4 @@
 
-
 # Lil Grand Films
 
 ## Description
@@ -134,4 +133,4 @@ Lil Grand Films is a webpage that provides potiental clients with everything thi
 - Javascript
 - Scass
 - Netlify 
-- Cloudinary
+- Cloudinary 
