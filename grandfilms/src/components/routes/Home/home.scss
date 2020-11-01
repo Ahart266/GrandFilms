@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Cormorant+Garamond:wght@500&family=Lexend+Zetta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+
+html{
+    // background-color: rgb(184, 237, 250)
+    background-color: rgb(0, 0, 0)
+}
+
+h3{
+    display: flex;
+    font-family: "Lexend Zetta";
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    transform: translate(5%, 420%,);
+    
+}
+// .img {
+//     background-image: url("https://res.cloudinary.com/twin2052000/image/upload/v1601489546/Images/asoggetti-rSFxBGpnluw-unsplash_oq7tor.jpg");
+//     text-shadow: 0 0 5px rgba(247, 245, 245, 0);
+//     background-size: cover;
+//     border-radius: 15px;
+//     padding: 5% 10%;
+//     margin: 5em auto;
+//     box-shadow: 0 30px 70px rgba(253, 253, 253, 0.973);
+//     width: 100%;
+//     height: 120vh;
+//     transition: all 2s ease-in 1s;
+//     animation: linear;
+
+// }
+
+// .lil{
+//     display: block;
+
+//     margin-top: 70px;
+//     font-family: "Rock Salt";
+//     color: black;
+//     width: 50%;
+//     border-radius: 10px;
+//     background-color: rgba(253, 188, 46, 0.877);
+    // animation: animate 3s linear infinite;
+
+    //   @keyframes animate 
+    //   { 0%, 100%
+    //    { 
+    //     color: rgb(253, 253, 253);
+    //     filter: blur(2px);
+    //     box-shadow: 0 0 10px rgba(253, 188, 46, 0.877),
+    //                 0 0 20px rgba(253, 188, 46, 0.877),
+    //                 0 0 40px rgba(253, 188, 46, 0.877),
+    //                 0 0 80px rgba(253, 188, 46, 0.877),
+    //                 0 0 120px rgba(253, 188, 46, 0.877),
+    //                 0 0 200px rgba(253, 188, 46, 0.877),
+    //                 0 0 300px rgba(253, 188, 46, 0.877),
+    //                 0 0 400px rgba(253, 188, 46, 0.877),
+    //                 0 0 500px rgba(253, 188, 46, 0.877),
+    //   } 9%, 95%
+    //   { 
+    //    color: rgb(0, 0, 0);
+    //    filter: blur(0px);
+    //    box-shadow: 0 0 10px none;
+    //  }
+    // }
+// }
+h2 {
+
+    font-family: "Lexend Zetta";
+    margin-top: 240px;
+}
+p {
+    font-family: "Lexend Zetta";
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 25px;
+}
+
+
+
+
+
+.wrapper {
+    font-family: " Montserrat ";
+    
+    margin: 0;
+    
+   
+    
+}
+
+.first{
+    
+    display: flex;
+    flex-direction: column;;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.685);
+    border-radius: 15px;
+    padding: 5% 10%;
+    margin: 80px;
+    margin-top: 40%;
+    margin-left: 120px;
+    width: 80%;
+    transition: all 2s ease-in 1s;
+    animation: linear;
+
+   
+}
+
+.pics{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.second{
+    
+    background-color: rgba(72, 147, 197, 0.808);
+    text-shadow: 0 0 5px rgba(247, 245, 245, 0);
+    border-radius: 15px;
+    padding: 10% 10%;
+    margin: 20px;
+    // box-shadow: 0 30px 70px rgba(253, 253, 253, 0.973);
+    width: 50%;
+    transition: all 2s ease-in 1s;
+    animation: linear;
+
+   
+}
+
+// .second:hover {
+//     background-image: url("https://res.cloudinary.com/twin2052000/image/upload/v1600284809/jakob-owens-HgY3BnCWiq8-unsplash_boyzjm.jpg");
+//     background-size: cover;
+  
+    
+    
+
+// }
+
+.third{
+    
+    background-color: rgba(72, 147, 197, 0.808);
+    text-shadow: 0 0 5px rgba(247, 245, 245, 0);
+    border-radius: 15px;
+    padding: 10% 10%;
+    margin: 20px;
+    // box-shadow: 0 30px 70px rgba(253, 253, 253, 0.973);
+    width: 50%;
+    transition: all 2s ease-in 1s;
+    animation: linear;
+
+   
+}
+
+// .third:hover {
+//     background-image: url("https://res.cloudinary.com/twin2052000/image/upload/v1600284819/cinescope-creative-c0UXnNgJGI4-unsplash_lh8ixs.jpg");
+//     background-size: cover;
+  
+    
+    
+
+// }
+
+.forth{
+    
+    background-color: rgba(72, 147, 197, 0.808);
+    text-shadow: 0 0 5px rgba(247, 245, 245, 0);
+    border-radius: 15px;
+    padding: 10% 10%;
+    margin: 20px;
+    // box-shadow: 0 30px 70px rgba(253, 253, 253, 0.973);
+    width: 50%;
+    transition: all 2s ease-in 1s;
+    animation: linear;
+
+   
+}
+
+// .forth:hover {
+//     background-image: url("https://res.cloudinary.com/twin2052000/image/upload/v1600286280/jon-flobrant-hKbNSRzUMhg-unsplash_uljefj.jpg");
+//     background-size: cover;
+  
+    
+    
+
+// }
+
+
