@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './home.scss';
+import Background from '../../../grandfilmsbg.mp4'
 
 
 
@@ -8,6 +9,23 @@ const Home = (props) => {
 
     return (
     <>
+     <video 
+            autoPlay 
+            muted 
+            loop 
+            preload='auto'
+            style={{
+                position:"sticky",
+                width:"100%",
+                height: "100%",
+                left:"0",
+                top:"0",
+                objectFit:"cover",
+                zIndex:"-1"
+
+            }}>
+                <source src={Background} type="video/mp4"/>
+            </video>
     <div className="img">
     
         
