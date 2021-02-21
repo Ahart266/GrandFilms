@@ -6,29 +6,12 @@ import Home from "../../routes/Home/Home";
 import Media from "../../routes/Media/Media";
 import axios from 'axios';
 import Contact from "../../routes/Contact/Contact";
-import Background from '../../../grandfilmsbg.mp4'
 
 
 const Main = () => {
     return (
         <main>
-            <video 
-            autoPlay 
-            muted 
-            loop 
-            preload='auto'
-            style={{
-                position:"sticky",
-                width:"100%",
-                height: "100%",
-                left:"0",
-                top:"0",
-                objectFit:"cover",
-                zIndex:"-1"
-
-            }}>
-                <source src={Background} type="video/mp4"/>
-            </video>
+           
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/home" component={Home} />
